@@ -93,10 +93,9 @@ public class SmallestBasePalindrome {
         }
     }
 
-
-    /*do not check palindrome when the number is divisible by base
-    also
-    * */
+/*main method calls getBase method that returns a Hashmap of numbers and corresponding smallest
+bases
+*/
     public static void main(String[] args) {
         SmallestBasePalindrome palindromeCheck=new SmallestBasePalindrome();
         Map<Integer,Integer>map=palindromeCheck.getBase();
