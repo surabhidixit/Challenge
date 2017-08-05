@@ -4,6 +4,10 @@ import org.junit.Assert;
 /**
  * Created by surabhi on 8/4/17.
  */
+
+/*
+Unit tests for all the methods 
+*/
 public class SmallestBasePalindromeTest extends TestCase {
     SmallestBasePalindrome tester=new SmallestBasePalindrome();
     public void testGetBase() throws Exception {
